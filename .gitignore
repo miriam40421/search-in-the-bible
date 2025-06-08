@@ -1,0 +1,22 @@
+# build folders
+bin/
+obj/
+dist/
+node_modules/
+
+# logs
+*.log
+logs/
+
+# system files
+.DS_Store
+Thumbs.db
+
+# app secrets
+appsettings*.json
+.env
+
+# IDEs
+.vscode/
+*.suo
+*.user
