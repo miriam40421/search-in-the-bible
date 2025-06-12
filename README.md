@@ -37,7 +37,7 @@ The system is implemented in **C#**, designed for performance and code clarity.
 ---
 
 ## 📃 License
-This project is open for educational and research purposes. (You can change this section to include a specific license like MIT/GPL if needed.)
+MIT
 
 ---
 
