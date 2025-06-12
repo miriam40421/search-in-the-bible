@@ -1,17 +1,46 @@
-Tanach Word and Gematria Search
-Project Description
-This project enables advanced search capabilities in the text of the Tanach (Hebrew Bible), including search by Gematria (Hebrew numeric values). The search is performed efficiently using preprocessed JSON files for fast data access.
+# 📖 Tanach Word and Gematria Search
 
-The project is written in C# and optimized for performance and clarity.
+## 🧩 Project Description
+This project provides advanced search functionality in the Hebrew Tanach (Bible), including powerful **Gematria-based searches**. It efficiently uses preprocessed JSON data for fast access and lookup.
 
-Features
-🔍 Search for words and phrases in the Tanach
-🔢 Search by Gematria value of words or verses
-⚡ High performance using preprocessed JSON data
-📚 Based on the full text of the Hebrew Tanach
-File Structure
- AllTora.json – Full text of the Tanach, structured by books, chapters, and verses
-C# source files – Handle JSON reading, Gematria calculation, and search execution
-Requirements
-.NET 6.0 or later
-C# compatible system (Windows, Linux, or macOS with .NET installe
+The system is implemented in **C#**, designed for performance and code clarity.
+
+---
+
+## 🚀 Features
+- 🔍 **Search** for words and phrases in the Hebrew Tanach  
+- 🔢 **Gematria search** by numerical value of words or entire verses  
+- ⚡ **High performance** via structured and preprocessed JSON files  
+- 📚 Based on the full Hebrew text of the Tanach  
+
+---
+
+## 📁 File Structure
+- `AllTora.json` – Full text of the Tanach, structured by books, chapters, and verses  
+- `*.cs` (C# source files) – Responsible for reading JSON data, computing gematria values, and executing search logic  
+
+---
+
+## 🛠 Requirements
+- [.NET 6.0](https://dotnet.microsoft.com/en-us/download/dotnet/6.0) or later  
+- Compatible operating system: **Windows**, **Linux**, or **macOS** with .NET SDK installed  
+
+---
+
+## 📌 Getting Started
+
+1. Clone the repository or download the project files.
+2. Open the project in your preferred C# IDE (e.g., Visual Studio or Rider).
+3. Restore dependencies and build the project.
+4. Run the executable and follow on-screen instructions for word or gematria search.
+
+---
+
+## 📃 License
+This project is open for educational and research purposes. (You can change this section to include a specific license like MIT/GPL if needed.)
+
+---
+
+## 🙌 Acknowledgments
+Special thanks to all contributors and sources that provided Hebrew Tanach texts and inspiration for Gematria implementation.
+
